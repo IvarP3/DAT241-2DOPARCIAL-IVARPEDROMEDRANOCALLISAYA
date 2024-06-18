@@ -1,0 +1,29 @@
+CREATE DATABASE BancoDB;
+GO
+
+USE BancoDB;
+GO
+
+CREATE TABLE CuentaBancaria (
+    CuentaID INT PRIMARY KEY IDENTITY(1,1),
+    NumeroCuenta NVARCHAR(20) NOT NULL,
+    NombreTitular NVARCHAR(100) NOT NULL,
+    Saldo DECIMAL(18, 2) NOT NULL,
+    FechaApertura DATE NOT NULL,
+    TipoCuenta NVARCHAR(50) NOT NULL
+);
+GO
+
+INSERT INTO CuentaBancaria (NumeroCuenta, NombreTitular, Saldo, FechaApertura, TipoCuenta)
+VALUES 
+('1234567890', 'Juan Perez', 1500.75, '2021-01-15', 'Ahorros'),
+('2345678901', 'Maria Lopez', 2500.00, '2020-06-22', 'Corriente'),
+('3456789012', 'Carlos Ruiz', 300.50, '2019-03-10', 'Ahorros'),
+('4567890123', 'Ana Gonzalez', 4500.00, '2018-11-05', 'Corriente'),
+('5678901234', 'Luis Martinez', 780.25, '2021-07-19', 'Ahorros'),
+('6789012345', 'Laura Sanchez', 5000.00, '2022-02-14', 'Corriente'),
+('7890123456', 'Jorge Fernandez', 320.75, '2020-09-30', 'Ahorros'),
+('8901234567', 'Rosa Ramirez', 2750.00, '2021-05-20', 'Corriente'),
+('9012345678', 'Pedro Suarez', 150.50, '2022-01-01', 'Ahorros'),
+('0123456789', 'Elena Mora', 615.00, '2019-08-12', 'Corriente');
+GO

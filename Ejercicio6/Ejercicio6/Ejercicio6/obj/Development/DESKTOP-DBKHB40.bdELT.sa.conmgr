@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-DBKHB40.bdELT.sa"
+  DTS:DTSID="{64B90188-B300-4BA8-8623-463283E8E560}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-DBKHB40;User ID=sa;Initial Catalog=bdELT;Encrypt=False;Application Name=SSIS-Ejercicio6-{64B90188-B300-4BA8-8623-463283E8E560}DESKTOP-DBKHB40.bdELT.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0WDLID1DS0uHucVY9auEOwAAAAACAAAAAAAQZgAAAAEAACAAAAAJW6OYrjdiLxI/ebf2fI5u5Hh/OheEcOltqRtNyMMpuQAAAAAOgAAAAAIAACAAAAB4vuTkmlQnwp8KtLdVEgWPj0isYzBtFwjvePNMW80iaoAAAADv6QvF8eS3tcS9YhEVgK3rKGsdU91CzTAgmIgjG/twVM9aVmG90CahNEIHq70OBwrgPx+NqZFXkZiFcj8xu7AUanzqAMD0YM5BGflCpMyZb/y+rL/qSMG9VQCALSZiyfJvvpVfm5UkJ4u/b98mlncMKuDw309BjU6fGvtrc+JINkAAAAA3Wj16ABIuJIz7oZqCUXIX/MXF1nBTiJlk//QOlvaf6xvnboVK6pj129rObEG7/d6l2Z6BNvxNERS9J2HgDqCJ</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

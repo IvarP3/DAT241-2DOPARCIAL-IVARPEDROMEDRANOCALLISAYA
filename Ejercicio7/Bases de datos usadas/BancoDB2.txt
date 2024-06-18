@@ -1,0 +1,15 @@
+CREATE DATABASE BancoDB2;
+GO
+
+USE BancoDB2;
+GO
+
+CREATE TABLE CuentaBancaria (
+    CuentaID INT PRIMARY KEY IDENTITY(1,1),
+    NumeroCuenta NVARCHAR(20) NOT NULL,
+    NombreTitular NVARCHAR(100) NOT NULL,
+    Saldo DECIMAL(18, 2) NOT NULL,
+    FechaApertura DATE NOT NULL,
+    TipoCuenta NVARCHAR(50) NOT NULL
+);
+GO
