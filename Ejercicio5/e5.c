@@ -3,7 +3,7 @@
 #include <omp.h>
 
 void inicializar_matriz(int *matriz, int tamano) {
-    #pragma omp parallel for collapse(2) // Usa OpenMP para paralelizar este bucle anidado
+    #pragma omp parallel for collapse(2) 
     for (int i = 0; i < tamano; i++) {
         for (int j = 0; j < tamano; j++) {
             matriz[i * tamano + j] = rand() % 10 + 1; // Inicializar con valores aleatorios del 1 al 10
@@ -12,7 +12,7 @@ void inicializar_matriz(int *matriz, int tamano) {
 }
 
 void multiplicar_bloque(int inicio_fila, int fin_fila, int *A, int *B, float *C, int tamano) {
-    #pragma omp parallel for collapse(2) // Usa OpenMP para paralelizar este bucle anidado
+    #pragma omp parallel for collapse(2) 
     for (int i = inicio_fila; i < fin_fila; i++) {
         for (int j = 0; j < tamano; j++) {
             for (int k = 0; k < tamano; k++) {
