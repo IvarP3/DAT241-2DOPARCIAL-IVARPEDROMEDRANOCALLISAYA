@@ -1,0 +1,6 @@
+C:\Users\IVAR\source\repos\Ejercicio1\DatosEstudiante\bin\Debug\DatosEstudiante.dll
+C:\Users\IVAR\source\repos\Ejercicio1\DatosEstudiante\bin\Debug\DatosEstudiante.pdb
+C:\Users\IVAR\source\repos\Ejercicio1\DatosEstudiante\obj\Debug\DatosEstudiante.csproj.AssemblyReference.cache
+C:\Users\IVAR\source\repos\Ejercicio1\DatosEstudiante\obj\Debug\DatosEstudiante.csproj.CoreCompileInputs.cache
+C:\Users\IVAR\source\repos\Ejercicio1\DatosEstudiante\obj\Debug\DatosEstudiante.dll
+C:\Users\IVAR\source\repos\Ejercicio1\DatosEstudiante\obj\Debug\DatosEstudiante.pdb
